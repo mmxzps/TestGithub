@@ -10,9 +10,10 @@ namespace TestGithub
     {
         public string Name { get; set; }
 
-        public void Method() 
+        private void Soup()
         {
             Console.WriteLine("method");
+            int test = 1 + 1;
         }
     }
 }

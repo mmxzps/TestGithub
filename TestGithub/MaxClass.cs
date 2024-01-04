@@ -10,13 +10,10 @@ namespace TestGithub
     {
         public string Name { get; set; }
 
-
-        public void Methods() 
+        private void Soup()
         {
             Console.WriteLine("method");
-            Console.WriteLine("What is a Cow's favorite food?");
-            Console.WriteLine("Moo-wed grass");
-
+            int test = 1 + 1;
         }
     }
 }
